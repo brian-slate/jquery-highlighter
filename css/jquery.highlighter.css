@@ -1,0 +1,22 @@
+.highlighter {
+    z-index: 1;
+    opacity: 0; /* start hidden */
+    position: absolute;
+    cursor: pointer;
+}
+.highlighter.yellow {
+    box-shadow: 0 0 13px 2px #FFD700;
+    background-color: #FFD700;
+}
+.highlighter.blue {
+    box-shadow: 0 0 13px 2px #0000FF;
+    background-color: #0000FF;
+}
+.highlighter.red {
+    box-shadow: 0 0 13px 2px #FF0000;
+    background-color: #FF0000;
+}
+.highlighter.green {
+    box-shadow: 0 0 13px 2px #008000;
+    background-color: #008000;
+}
