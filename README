@@ -1,7 +1,7 @@
 /*
  * jQuery highlighter plugin
  *
- * version 1.0 (2/29/2012)
+ * version 1.1 (2/29/2012)
  *
  * Dual licensed under the MIT and GPL licenses:
  *   http://www.opensource.org/licenses/mit-license.php
@@ -11,17 +11,6 @@
 /**
  * The highlighter() method provides a simple way of highlighting DOM elements.  
  *
- * highlighter takes the following {} options
- *
- *   color:  The name of the color to apply. 
- *           yellow (default) | red | blue | green
- *
- *   class:  The class name to use for the highlighter
- *           highlighter (default)
- *
- *   focus:  When enabled, highlights will disappear when clicked or focused. 
- *           false (default) | true
- *
  * For more details see: https://github.com/unknpwn/jquery-highlighter
  *
  *
@@ -30,6 +19,9 @@
  *
  * @example $('.a').highlighter({color: 'blue'});
  * @desc Highlights all links with the blue color.
+ * 
+ * @example $('.a').highlighter('destroy');
+ * @desc Will remove any highlights applied to the selected elements.
  * 
  * @name highlighter
  * @type jQuery
