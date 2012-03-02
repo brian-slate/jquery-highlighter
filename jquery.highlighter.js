@@ -39,7 +39,6 @@
           color         : 'yellow',                 // yellow|red|blue|green
           glow          : false,                    // adds glow to stripes if true
           speed         : 500,                      // animation speed (for fades)
-          opacity       : 0.4,                      // initial opacity (fadein)
           height        : false,                    // fixed stripe height if set (px)
           overlap       : 2,                        // amount for stripes to overlap (px)
           overhang      : 5,                        // amount for highlight to overhang (px)
