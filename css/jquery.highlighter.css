@@ -1,22 +1,36 @@
-.highlighter {
+.highlighter-wrap {
     z-index: 1;
-    opacity: 0; /* start hidden */
     position: absolute;
     cursor: pointer;
+    border-radius: 2px; 
+}
+.highlighter {
+    opacity: .4;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 2px;
 }
 .highlighter.yellow {
-    box-shadow: 0 0 13px 2px #FFD700;
     background-color: #FFD700;
 }
+.highlighter.yellowGlow {
+    box-shadow: 0 0 13px 2px #FFD700;
+}
 .highlighter.blue {
-    box-shadow: 0 0 13px 2px #0000FF;
     background-color: #0000FF;
 }
+.highlighter.blueGlow {
+    box-shadow: 0 0 13px 2px #0000FF;
+}
 .highlighter.red {
-    box-shadow: 0 0 13px 2px #FF0000;
     background-color: #FF0000;
 }
+.highlighter.redGlow {
+    box-shadow: 0 0 13px 2px #FF0000;
+}
 .highlighter.green {
-    box-shadow: 0 0 13px 2px #008000;
     background-color: #008000;
+}
+.highlighter.greenGlow {
+    box-shadow: 0 0 13px 2px #008000;
 }
