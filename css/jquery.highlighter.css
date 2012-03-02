@@ -1,8 +1,6 @@
 .highlighter-wrap {
     z-index: 1;
     position: absolute;
-    cursor: pointer;
-    border-radius: 2px; 
 }
 .highlighter {
     opacity: .4;
