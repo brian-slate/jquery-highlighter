@@ -49,7 +49,6 @@
                 $highlight.animate({'opacity': .7}, settings.speed);
                 methods.reposition();
             }).focus(function() {
-                if (!settings.focus) return;
                 var $highlight = $(this).data('highlight');
                 if ($highlight) { $highlight.fadeOut(settings.speed, function() { $(this).remove(); }); }
             });
@@ -76,7 +75,6 @@
         
         settings = $.extend( {
           'debug'   : false,
-          'focus'   : false,
           'class'   : 'highlighter',
           'color'   : 'yellow',
           'speed'   : 400,
